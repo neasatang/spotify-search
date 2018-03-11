@@ -1,0 +1,127 @@
+body{
+  text-align: center;
+  position:relative;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+}
+
+header .container{
+  text-align: center;
+  position: relative;
+}
+
+header .profile{
+  margin-left: 3%;
+  position:absolute;
+  top: 150%;
+}
+
+header .background-image{
+  object-fit: cover;
+  width:100%;
+  height:200px;
+  position: relative;
+  -webkit-filter: brightness(85%) contrast(90%) blur(2px) grayscale(10%);
+ filter: brightness(85%) contrast(90%) blur(1px) grayscale(0%);
+}
+
+header .bio{
+  color: white;
+  position:absolute;
+  top: 150px;
+  left: 350px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus,
+.nav-pills > li > a:hover {
+    text-decoration: none;
+    border-radius:0px;
+    border-bottom-width:5px;
+    border-bottom-style: dotted;
+    border-bottom-color:  MistyRose;
+    color: black;
+    background-color:transparent;
+    }
+
+.nav-pills > li > a{
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  margin: 30px;
+  color:lightblue;
+}
+
+.edit {
+  display: inline-block;
+  border-radius:0px;
+  margin-top: 20px;
+}
+
+.social{
+  position:relative;
+  padding-right: 20px;
+}
+.link-edit{
+  position: relative;
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+  position:relative;
+}
+
+.social-group{
+  margin: 50px;
+  position: relative;
+  display:inline-block;
+}
+
+.name{
+  margin-top: 30px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  position: relative;
+  line-height: normal;
+}
+
+
+/*------------------------------ vertical bootstrap slider----------------------------*/
+
+.carousel-inner> .item.next ,  .carousel-inner > .item.active.right{ transform: translate3d(0, 100%, 0); -webkit-transform: translate3d(0, 100%, 0); -ms-transform: translate3d(0, 100%, 0); -moz-transform: translate3d(0, 100%, 0); -o-transform: translate3d(0, 100%, 0);  top: 0;}
+.carousel-inner > .item.prev ,.carousel-inner > .item.active.left{ transform: translate3d(0,-100%, 0); -webkit-transform: translate3d(0,-100%, 0);  -moz-transform: translate3d(0,-100%, 0);-ms-transform: translate3d(0,-100%, 0); -o-transform: translate3d(0,-100%, 0); top: 0;}
+.carousel-inner > .item.next.left , .carousel-inner > .item.prev.right , .carousel-inner > .item.active{transform:translate3d(0,0,0); -webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);; -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); top:0;}
+
+/*------------------------------- vertical carousel ------------------------------*/
+.carousel{
+  position:relative;
+  height:250px;
+}
+
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.carousel-indicators{
+position:absolute;
+top:50px;
+
+/*
+bottom:0;
+margin:auto;
+height:20px;
+right:10px; left:auto;
+width:auto;
+*/
+}
+.carousel-indicators li{display:block; margin-bottom:5px; border:1px solid #00a199; }
+.carousel-indicators li.active{margin-bottom:5px; background:#00a199;}
+
+.carousel-inner,.carousel,.item,.container,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+  background-size:cover;
+}
+.slide-wrapper{display:inline;}
+.slide-wrapper .container{padding:0px;}
